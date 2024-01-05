@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+.post{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+.post-section{
+    width:25%;
+    background-color: white;
+}
+.post-header{
+    display:flex;
+    justify-content: space-between;
+}
+.header-text {
+    display:inline-block;
+    margin:0;
+    padding-top:10px;
+}
+.header-text p{
+    margin: 0;
+    padding-top:0;
+}
+.fa-html5{
+   font-size:25px;
+    margin:0;
+    padding:10px;
+}
+.fa-ellipsis-vertical{
+    font-size:30px;
+    padding:10px;
+}
+img {
+    overflow: hidden;
+    width: 100%;
+}
+.post-footer {
+
+}
+.footer-icons{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.fa-heart, .fa-comment, .fa-paper-plane, .fa-bookmark {
+    font-size:25px;
+}
+.post-footer{
+    padding-bottom:15px ;
+}
+.post-footer p{
+    padding:0 10px;
+    font-size:14px;
+    text-align:left;
+}
